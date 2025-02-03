@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">walletapp</string>
+    <string name="title_activity_main">walletapp</string>
+    <string name="package_name">com.walletapp</string>
+    <string name="custom_url_scheme">com.walletapp</string>
+</resources>
