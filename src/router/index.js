@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router';
 
 // Import your pages
-import SplashScreen from '@/views/SplashScreen.vue';
+import SplashScreen from '../components/SplashScreen.vue';
 import Onboarding1 from '@/views/Onboarding1.vue';
 import Onboarding2 from '@/views/Onboarding2.vue';
 import Onboarding3 from '@/views/Onboarding3.vue';
