@@ -8,8 +8,6 @@ import Onboarding3 from '@/views/Onboarding3.vue';
 import SignUp from '@/views/SignUp.vue';
 import VerifyAccount from '@/views/VerifyAccount.vue';
 import OTP from '@/views/OTP.vue';
-import VerificationSuccess from '@/views/VerificationSuccess.vue';
-import Alert from '@/views/Alert.vue';
 import Login from '@/views/Login.vue';
 import ForgetPassword from '@/views/ForgetPassword.vue';
 import ChangePassword from '@/views/ChangePassword.vue';
@@ -25,8 +23,6 @@ const routes = [
   { path: '/sign-up', name: 'SignUp', component: SignUp },
   { path: '/verify-account', name: 'VerifyAccount', component: VerifyAccount },
   { path: '/otp', name: 'OTP', component: OTP },
-  { path: '/verification-success', name: 'VerificationSuccess', component: VerificationSuccess },
-  { path: '/alert', name: 'Alert', component: Alert },
   { path: '/login', name: 'Login', component: Login },
   { path: '/forget-password', name: 'ForgetPassword', component: ForgetPassword },
   { path: '/change-password', name: 'ChangePassword', component: ChangePassword },
