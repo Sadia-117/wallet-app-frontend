@@ -1,13 +1,13 @@
-<script setup>
-
-</script>
-
 <template>
-  
-  <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-  
+  <Onboarding1 />
 </template>
 
+<script>
+import Onboarding1 from './components/Onboarding1.vue';
 
+export default {
+  components: {
+    Onboarding1
+  }
+};
+</script>
