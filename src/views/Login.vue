@@ -51,9 +51,9 @@
   
       <p class="ml-[10.5rem] mt-2 text-[#9595A2]">or join with</p>
       <div class="flex justify-center mt-2 gap-2">
-        <img class="w-16" src="@/assets/google.png" alt="Google">
-        <img class="w-16" src="@/assets/facebook.png" alt="Facebook">
-        <img class="w-16" src="@/assets/apple.png" alt="Apple">
+        <img class="w-16" src="/Images/google.png" alt="Google">
+        <img class="w-16" src="/Images/facebook.png" alt="Facebook">
+        <img class="w-16" src="/Images/apple.png" alt="Apple">
       </div>
   
       <p class="text-center mt-2 mb-5 text-[#9595A2]">

@@ -1,7 +1,7 @@
 <template>
     <div>
       <!-- Background Pattern -->
-      <img class="h-[590px] w-full" src="../assets//Images/Pattern.png" alt="Pattern">
+      <img class="h-[590px] w-full" src="/Images/Pattern.png" alt="Pattern">
   
       <!-- Content -->
       <div class="p-4 ml-1">
@@ -16,7 +16,7 @@
   
         <!-- Steps Indicator and Button -->
         <div class="mt-5 flex">
-          <img class="ml-2 w-[3.9rem] h-[1rem] mt-10" src="/Images/Indicator Step.png" alt="Step Indicator">
+          <img class="ml-2 w-[3.9rem] h-[1rem] mt-10" src="/Images/IndicatorStep.png" alt="Step Indicator">
           <img class="ml-[270px]" src="/Images/Button.png" alt="Next Button">
         </div>
       </div>
