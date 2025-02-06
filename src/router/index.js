@@ -2,17 +2,17 @@ import { createRouter, createWebHistory } from 'vue-router';
 
 // Import your pages
 import SplashScreen from '../components/SplashScreen.vue';
-import Onboarding1 from '@/views/Onboarding1.vue';
-import Onboarding2 from '@/views/Onboarding2.vue';
-import Onboarding3 from '@/views/Onboarding3.vue';
-import SignUp from '@/views/SignUp.vue';
-import VerifyAccount from '@/views/VerifyAccount.vue';
-import OTP from '@/views/OTP.vue';
-import Login from '@/views/Login.vue';
-import ForgetPassword from '@/views/ForgetPassword.vue';
-import ChangePassword from '@/views/ChangePassword.vue';
-import Homepage from '@/views/Homepage.vue';
-import TopUp from '@/views/TopUp.vue';
+import Onboarding1 from '../views/Onboarding1.vue';
+import Onboarding2 from '../views/Onboarding2.vue';
+import Onboarding3 from '../views/Onboarding3.vue';
+import SignUp from '../views/SignUp.vue';
+import VerifyAccount from '../views/VerifyAccount.vue';
+import OTP from '../views/OTP.vue';
+import Login from '../views/Login.vue';
+import ForgetPassword from '../views/ForgetPassword.vue';
+import ChangePassword from '../views/ChangePassword.vue';
+import Homepage from '../views/Homepage.vue';
+import TopUp from '../views/TopUp.vue';
 
 // Define routes
 const routes = [

@@ -10,17 +10,32 @@
       <form @submit.prevent="handleLogin" class="mt-5">
         <div class="relative">
           <i class='bx bx-envelope absolute left-10 top-12 text-orange-300 text-2xl'></i>
-          <input type="email" v-model="email" placeholder="Your email"
-            class="ml-8 w-80 p-4 m-2 border border-gray-400 rounded-lg">
+          <input 
+            type="email" 
+            v-model="email" 
+            placeholder="Your email"
+            class="ml-8 w-80 p-4 m-2 border border-gray-400 rounded-lg"
+            required
+          >
         </div>
   
         <div class="relative">
           <i class='bx bx-lock-alt absolute left-10 top-12 text-orange-300 text-2xl'></i>
-          <i @click="togglePassword" :class="showPassword ? 'bx bx-show' : 'bx bx-low-vision'"
-            class='absolute right-10 top-12 text-xl cursor-pointer'></i>
-          <input :type="showPassword ? 'text' : 'password'" v-model="password" placeholder="Password"
-            class="ml-8 w-80 p-4 m-2 border border-gray-400 rounded-lg" required>
-          <h2 class="font-bold text-[#F57C51] hover:text-orange-600 pl-[14rem] cursor-pointer">Forgot Password</h2>
+          <i 
+            @click="togglePassword" 
+            :class="showPassword ? 'bx bx-show' : 'bx bx-low-vision'"
+            class='absolute right-10 top-12 text-xl cursor-pointer'
+          ></i>
+          <input 
+            :type="showPassword ? 'text' : 'password'" 
+            v-model="password" 
+            placeholder="Password"
+            class="ml-8 w-80 p-4 m-2 border border-gray-400 rounded-lg" 
+            required
+          >
+          <router-link to="/forget-password" class="font-bold text-[#F57C51] hover:text-orange-600 pl-[14rem] cursor-pointer">
+            Forgot Password
+          </router-link>
         </div>
   
         <div class="ml-8 mt-5">
@@ -36,14 +51,14 @@
   
       <p class="ml-[10.5rem] mt-2 text-[#9595A2]">or join with</p>
       <div class="flex justify-center mt-2 gap-2">
-        <img class="w-16" src="/images/Frame 1597883993.png" alt="Google">
-        <img class="w-16" src="/images/Frame 1597884036.png" alt="Facebook">
-        <img class="w-16" src="/images/Frame 1597884035.png" alt="Apple">
+        <img class="w-16" src="@/assets/google.png" alt="Google">
+        <img class="w-16" src="@/assets/facebook.png" alt="Facebook">
+        <img class="w-16" src="@/assets/apple.png" alt="Apple">
       </div>
   
       <p class="text-center mt-2 mb-5 text-[#9595A2]">
-        Don't Have an account? 
-        <router-link to="/signup" class="font-bold text-[#F57C51] text-xl">Sign Up</router-link>
+        Don't have an account?  
+        <router-link to="/sign-up" class="font-bold text-[#F57C51] text-xl">Sign Up</router-link>
       </p>
     </div>
   </template>
@@ -53,8 +68,8 @@
     name: "Login",
     data() {
       return {
-        email: '',
-        password: '',
+        email: "",
+        password: "",
         showPassword: false,
         agreed: false,
       };
@@ -64,14 +79,18 @@
         this.showPassword = !this.showPassword;
       },
       handleLogin() {
+        if (!this.email || !this.password) {
+          alert("Please enter your email and password.");
+          return;
+        }
         if (!this.agreed) {
           alert("You must agree to the Terms & Conditions.");
           return;
         }
         alert(`Logging in with ${this.email}`);
-        // Add login logic here (API call, Vuex, etc.)
-      }
-    }
+        // Implement API call here
+      },
+    },
   };
   </script>
   
