@@ -1,6 +1,6 @@
 <template>
     <div>
-      <img class="h-[590px] w-full" src="/Images/Pattern 2.png" alt="Pattern">
+      <img class="h-[590px] w-full" src="../assets//Images/Pattern.png" alt="Pattern">
       <div class="p-4 ml-1">
         <h1 class="text-4xl font-bold">
           Track and Save your<br>
