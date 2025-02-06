@@ -27,7 +27,7 @@
   </script>
   <script>
   export default {
-    name: "VerifyAccount",
+    name: "Onboarding3",
   };
   </script>
 
