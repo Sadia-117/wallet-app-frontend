@@ -22,4 +22,9 @@
       </div>
     </div>
   </template>
+  <script>
+  export default {
+    name: "VerifyAccount",
+  };
+  </script>
   

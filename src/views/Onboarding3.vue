@@ -25,4 +25,9 @@
     name: "Onboarding3",
   };
   </script>
+  <script>
+  export default {
+    name: "VerifyAccount",
+  };
+  </script>
 

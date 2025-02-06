@@ -41,6 +41,7 @@
   
   <script>
   export default {
+    name:"VerifyAccount",
     data() {
       return {
         email: ''
