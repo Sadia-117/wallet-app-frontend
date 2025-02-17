@@ -23,10 +23,10 @@
     data() {
       return {
         paymentMethods: [
-          { image: '/publicImages/Frame 111.png', name: '**********Mastercard' },
-          { image: '/publicImages/Frame 112.png', name: '**********1147 Visa' },
-          { image: '/publicImages/Frame 113.png', name: 'Google Pay' },
-          { image: '/publicImages/Frame 110.png', name: 'aczone@gmail.com' }
+          { image: '/publicImages/Frame111.png', name: '**********Mastercard' },
+          { image: '/publicImages/Frame112.png', name: '**********1147 Visa' },
+          { image: '/publicImages/Frame113.png', name: 'Google Pay' },
+          { image: '/publicImages/Frame110.png', name: 'aczone@gmail.com' }
         ]
       };
     }
