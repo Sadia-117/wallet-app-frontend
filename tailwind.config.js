@@ -2,10 +2,10 @@
 export default {
   content: [
     "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{vue,js,ts,jsx,tsx}", // Add "vue" here
   ],
   theme: {
     extend: {},
   },
   plugins: [],
-}
+};

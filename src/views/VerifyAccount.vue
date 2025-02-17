@@ -48,8 +48,8 @@ export default {
   data() {
     return {
       email: '',
-      backButton: new URL('@/assets/images/BackButton.png', import.meta.url).href,
-      placeHolder: new URL('@/assets/images/PlaceHolder.png', import.meta.url).href
+      backButton: new URL('/Images/BackButton.png', import.meta.url).href,
+      placeHolder: new URL('/Images/PlaceHolder.png', import.meta.url).href
     };
   },
   methods: {
