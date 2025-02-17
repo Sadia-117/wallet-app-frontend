@@ -7,6 +7,7 @@ import Onboarding1 from '@/views/Onboarding1.vue';
 import Onboarding2 from '@/views/Onboarding2.vue';
 import Onboarding3 from '@/views/Onboarding3.vue';
 import OTP from '@/views/OTP.vue';
+import QrCode from '@/views/QrCode.vue';
 import SignUp from '@/views/SignUp.vue';
 import TopUp from '@/views/TopUp.vue';
 import VerifyAccount from '@/views/VerifyAccount.vue';
@@ -29,6 +30,7 @@ const routes = [
   { path: '/change-password', name: 'ChangePassword', component: ChangePassword },
   { path: '/homepage', name: 'Homepage', component: Homepage },
   { path: '/top-up', name: 'TopUp', component: TopUp },
+  { path: '/qr-code', name: 'QrCode', component: QrCode },
 ];
 
 // Create the router
